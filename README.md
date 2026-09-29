@@ -1,25 +1,23 @@
 # QuietGames
 
-For the purpose of this 'new' repository, you can think of QuietGames as projects i'm tinkering with, of one sort or another. None here, are of any consequence perse by virtue of their arrival in this repo; it's just something i'm capturing 'now'. I've been practicing QuietGames as long as i can remember, though just decided to capture a bit of it now, for things currently on my plate v. the many plates over time past (assuming you look at them from a traditional linear time ordered reality).
+## QuietGames Repo Overview
 
-There are other more developed projects, primarilly software, which are captured on the [MerWare site](https://merware.net#Portfolio) and/or in other discrete [GitHub repos](https://GitHub.com/PapaMarc) some of which are public or semi-public with additional detail on how to gain further access. But again, this repo is about simply capturing summary writings.
+For the purpose of this repository, you can think of QuietGames as the various tinkering projects I’m exploring at the moment. Nothing here carries special significance simply because it appears in this repo — it’s just what I’m capturing _now_. I’ve practiced QuietGames for as long as I can remember. This space reflects the current signals — the active workpieces on the nerdBench when they surface. While entries will age over time, the goal of the repo isn’t to backfill the past; it’s to record what shows up from this moment forward.
 
-I've shared a little more on [QuietGames](https://github.com/PapaMarc/marc-os/blob/main/docs/quiet-games.md) in additional context previously, so if you want to explore that further as i've tried, feel free. That said, that perspective is not the point of this repo... this simply a repo of discrete examples, which is reusing that larger moniker.
+More developed work — primarily software — lives on the [MerWare site](https://merware.net#Portfolio) and in other discrete [GitHub repositories](https://github.com/PapaMarc), some public and some semi‑public with additional access details. This repo, by contrast, is mainly a place to collect summary writings.
 
----
+I’ve shared broader context on the QuietGames construct previously in the aptly named [QuietGames document](https://github.com/PapaMarc/marc-os/blob/main/docs/quiet-games.md). You’re welcome to explore that, but it’s not the focus here. This repo simply catalogs discrete instances under that larger moniker.
 
 ## Project Summary
 
-QuietGames, as it exists on GitHub, is a document repository created to manage and track various writing on disparate topics... generally encapsulating an opportunity i've encountered which avails itself to codifying, and often indulging in some optimization or other personalization.
-
----
+QuietGames, as it exists on GitHub, is a document repository created to manage and track writings across disparate topics — generally encapsulating an idea, pattern, or opportunity I’ve encountered that lends itself to codification, and often to some optimization or personal refinement.
 
 ## Key Features & Goals
 
-- a start at cataloging and tracking these endeavors, which have for countless years gone otherwise mostly untracked.
-- at present a go forward model, and less about historical recapturing and archiving
-- the potential, given the internet is going to be big someday, that someone else may stumble across any of these herein and find them useful.
-- a reminder to myself of the details, in the event the 'fix' fails or is in need of maintenance, where i don't recall all the specific learnings initially arrived at, upon revisiting it later.
+- Establish a durable catalog for these endeavors — many of which, for years, went untracked or undocumented.
+- Serve as a forward-looking model rather than a historical archive; the focus is on current and emerging work, not retroactive reconstruction.
+- Provide a public surface where others may eventually stumble across an idea, pattern, or fix and find it useful.
+- Act as a personal reference point when a solution fails, requires maintenance, or needs revisiting — preserving the specific learnings that informed the original approach.
 
 ## Documentation Index
 
