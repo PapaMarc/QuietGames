@@ -8,6 +8,38 @@ This model directly addresses the deliverability and forwarding‑related issues
 
 \---
 
+## 0\. Clarifying the Root Cause: Why Forwarding Fails in 2026
+
+Duke’s original 5/6/26 announcement stated that the alumni email service suffered from “ongoing security inconsistencies and increasingly unreliable message delivery.” While this description reflects the symptoms alumni experience, it does not identify the underlying cause. The failures are not due to Exchange reliability, nor to any inherent instability in Microsoft 365 mailboxes. They are the predictable result of how modern email security systems evaluate forwarded mail.
+
+### Forwarding Breaks Modern Authentication
+
+When Duke forwards a message from an external sender to an alumni’s personal mailbox (Gmail, Outlook.com, Yahoo, etc.), the act of forwarding alters the message in ways that violate modern anti‑spoofing standards:
+
+- **SPF fails** because the message is now sent from Duke’s mail servers, not the original sender’s domain.
+- **DKIM signatures often break** because forwarding modifies headers and message structure.
+- **DMARC alignment fails** because neither SPF nor DKIM align with the original domain after forwarding.
+
+These failures cause receiving systems to treat forwarded mail as **spoofing**, **phishing**, or **header‑forged traffic**. As a result, Gmail, Outlook.com, Yahoo, and enterprise security gateways increasingly reject, quarantine, or silently drop forwarded messages. This is the true source of the “unreliable message delivery” Duke cites.
+
+### Why Exchange is not to blame
+
+Exchange Online is performing exactly as designed: it forwards mail when instructed. The rejection happens **after** the message leaves Duke’s Exchange based environment, at the receiving system, which is enforcing modern DMARC and anti‑spoofing rules. No configuration change within Exchange can override these external security policies.
+
+### The Preferred Solution: Mail‑Enabled Users (MEUs)
+
+The industry‑standard solution—used by Harvard, MIT, Stanford, Princeton, UPenn, Dartmouth, Brown, and others—is to eliminate forwarding entirely and instead maintain alumni identities using **Mail‑Enabled Users (MEUs)**. MEUs preserve the _@alumni.duke.edu_ identity without hosting a mailbox and without forwarding. Inbound mail is routed directly to the alumni’s chosen address, and outbound mail is sent through Duke’s authenticated relay, ensuring proper SPF/DKIM/DMARC alignment.
+
+This model:
+
+- Removes the forwarding mechanism that causes DMARC failures.
+- Eliminates the “security inconsistencies” Duke referenced.
+- Restores reliable message delivery.
+- Preserves the alumni identity without requiring Duke to host mailboxes.
+- Reduces operational burden compared to mailbox hosting.
+
+In short, the MEU model directly addresses the issues Duke described, while preserving the long‑standing alumni identity benefit in a way that aligns with modern email security standards.
+
 ## 1\. Mail‑Enabled User (MEU) Architecture
 
 Alumni accounts are converted from full mailboxes into **mail‑enabled users (MEUs)**:
