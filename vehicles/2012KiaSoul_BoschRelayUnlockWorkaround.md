@@ -1,6 +1,8 @@
 # 2012 Kia Soul – Bosch Relay Unlock Booster (BCM Unlock Transistor Bypass)
 
-This guide restores full unlock functionality for the **passenger doors + hatch** using the **factory remote** and **interior lock/unlock switch**, bypassing the failed BCM unlock transistor by adding a Bosch-style relay.
+**FULL DISCLOSURE: WHAT FOLLOWS IS ENTIRELY THEORY AND IS A WORK-IN-PROGRESS-- I HAVE NOT GOTTEN THIS WORKING YET, DESPITE NO LACK OF TRYING.** Further will note, nothing i did in 'testing' this live and searching for the correct terminal on the backside of their plugs caused any damage either. So no regressions, but no solution (yet) either.
+
+This guide airms to restore full unlock functionality for the **passenger doors + hatch** using the **factory remote** and **interior lock/unlock switch**, bypassing the failed BCM unlock transistor by adding a Bosch-style relay.
 
 ---
 
