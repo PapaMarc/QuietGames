@@ -2,6 +2,10 @@
 
 **FULL DISCLOSURE: WHAT FOLLOWS IS ENTIRELY THEORY AND IS A WORK-IN-PROGRESS-- I HAVE NOT GOTTEN THIS WORKING YET, DESPITE NO LACK OF TRYING.** Further will note, nothing i did in 'testing' this live and searching for the correct terminal on the backside of their plugs caused any damage either. So no regressions, but no solution (yet) either.
 
+The following v2 revision is a work-in-progress, and should be referred to as the current avenue toward resolution: [2012KiaSoul_BoschRelayUnlockWorkaround_v2-REVISED.md](2012KiaSoul_BoschRelayUnlockWorkaround_v2-REVISED.md)
+
+What follows then within this doc is left as-is but _SHOULD NOT_ be followed as a guide to success, but rather what _NOT_ to do.
+
 This guide airms to restore full unlock functionality for the **passenger doors + hatch** using the **factory remote** and **interior lock/unlock switch**, bypassing the failed BCM unlock transistor by adding a Bosch-style relay.
 
 ---
